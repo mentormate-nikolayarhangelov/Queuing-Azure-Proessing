@@ -7,6 +7,7 @@ If the JSON message specifies a share, the app will try to mount the share to it
 ## Steps
 1. Log into your Docker on Ubuntu server.
 3. Execute  the following commands in the repository folder:
+
     ```
     $ docker build -t "mentormate-azure-processing" .
     $ docker run --privileged -it mentormate-azure-processing --privileged
