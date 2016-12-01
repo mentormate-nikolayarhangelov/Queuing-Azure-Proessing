@@ -12,8 +12,8 @@ ADD client.py /mentormate/azure-processing-client/
 
 # Run with the appropriate Azure environment settings
 CMD python /mentormate/azure-processing-client/client.py \
-	--queue-account="mmstorageacc" \
-	--queue-key="HvcHprcC16hJ3+hQ4+Ad8JIS+l9Ht8IK5nogIwgvUS7Crv3etTnV3ZzU99JnF1De5op2KNDwc90B2EDnaXGbEw==" \
-	--storage-endpoint="//mmstorageacc.file.core.windows.net/" \
-	--storage-account="mmstorageacc" \
-	--storage-key="HvcHprcC16hJ3+hQ4+Ad8JIS+l9Ht8IK5nogIwgvUS7Crv3etTnV3ZzU99JnF1De5op2KNDwc90B2EDnaXGbEw=="
+	--queue-account="<queue-storage-account>" \
+	--queue-key="<queue-storage-key>" \
+	--storage-endpoint="<share-storage-endpoint>" \
+	--storage-account="<share-storage-key>" \
+	--storage-key="<share-storage-password>"
