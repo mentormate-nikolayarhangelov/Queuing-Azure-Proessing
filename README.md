@@ -9,7 +9,7 @@ If the JSON message specifies a share, the app will try to mount the share to it
 3. Execute  the following commands in the repository folder:
     ```
     $ docker build -t "mentormate-azure-processing" .
-    $ docker run --privileged -it mentormate-azure-processing --privileged
+    $ docker run --privileged -it mentormate-azure-processing
     ```
 
 **Note:** The *mount* command requires elevated permissions. That is why the *--privileged* parameter is added to *docker run*.
