@@ -1,6 +1,6 @@
 # Queuing Long Running Tasks on Azure - Proessing Demo
 This repository is used for a sample client, which demonstrates the architectural pattern
-mentioned in the [Queuing Long Running Tasks on Azure](TODO) blog post.
+mentioned in the [Queuing Long Running Tasks on Azure](https://mentormate.com/blog/azure-message-queuing/) blog post.
 ## Demo
 The demo client is a sample Python application, which will get messages from the Pending queue and handle them.
 If the JSON message specifies a share, the app will try to mount the share to its file system and will list the contents of the Azure share.
